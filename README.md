@@ -30,3 +30,7 @@ Current API status:
       - #sort()
       - #reverse()
 ```
+
+## License
+
+MIT. Copyright (c) [David da Silva Contin](http://dasilvacont.in).
