@@ -1,10 +1,13 @@
 # lijst
 
 [![travis][travis-image]][travis-url]
+[![npm][npm-image]][npm-url]
 [![js-standard-style][standard-image]][standard-url]
 
 [travis-image]: https://travis-ci.org/dasilvacontin/lijst.svg?style=flat
 [travis-url]: https://travis-ci.org/dasilvacontin/lijst
+[npm-image]: https://img.shields.io/npm/v/lijst.svg?style=flat
+[npm-url]: https://npmjs.org/package/lijst
 [standard-image]: https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat
 [standard-url]: https://github.com/feross/standard
 
