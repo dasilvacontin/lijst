@@ -1,2 +1,2 @@
 # lijst
-Javascript List collection
+JavaScript doubly linked list implementation
