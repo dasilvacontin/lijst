@@ -1,4 +1,13 @@
 # lijst
+
+[![travis][travis-image]][travis-url]
+[![js-standard-style][standard-image]][standard-url]
+
+[travis-image]: https://travis-ci.org/dasilvacontin/lijst.svg?style=flat
+[travis-url]: https://travis-ci.org/dasilvacontin/lijst
+[standard-image]: https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat
+[standard-url]: https://github.com/feross/standard
+
 JavaScript doubly linked list implementation
 
 Current API status:
