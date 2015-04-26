@@ -1,0 +1,35 @@
+{
+  "name": "lijst",
+  "version": "0.1.0",
+  "description": "JavaScript doubly linked list implementation",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "standard && mocha --require test/setup.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dasilvacontin/lijst.git"
+  },
+  "keywords": [
+    "doubly",
+    "linked",
+    "list",
+    "implementation",
+    "data",
+    "structure"
+  ],
+  "author": "David da Silva Contin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dasilvacontin/lijst/issues"
+  },
+  "homepage": "https://github.com/dasilvacontin/lijst",
+  "devDependencies": {
+    "chai": "^2.3.0",
+    "mocha": "^2.2.4",
+    "standard": "^3.7.1"
+  }
+}
