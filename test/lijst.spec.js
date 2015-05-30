@@ -12,14 +12,14 @@ describe('lijst', function () {
     list = new List()
   })
   describe('Capacity', function () {
-    it('#empty()', function () {
-      list.empty().should.be.true
+    it('#isEmpty() #empty()', function () {
+      list.isEmpty().should.be.true
 
       list.push('something')
-      list.empty().should.be.false
+      list.isEmpty().should.be.false
 
       list.pop()
-      list.empty().should.be.true
+      list.isEmpty().should.be.true
     })
 
     it('#length', function () {

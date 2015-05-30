@@ -66,7 +66,7 @@ List.prototype.ReverseIterator = function () {
 /**
  * Test whether container is empty
  **/
-List.prototype.empty = function () {
+List.prototype.empty = List.prototype.isEmpty = function () {
   return !this.length
 }
 
