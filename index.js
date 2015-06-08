@@ -240,3 +240,23 @@ List.prototype.clone = function () {
   }
   return list
 }
+
+/**
+ * The forEach() method executes a provided function once per list element.
+ *
+ * callback arguments:
+ * - currentValue
+ * - list
+ *
+ * @param {Function} callback
+ * @return {List} this, for chaining
+ */
+List.prototype.forEach = function (callback) {
+  var it = this.Iterator()
+  var item = it.next()
+  while (!item.done) {
+    callback(item.value, this)
+    item = it.next()
+  }
+  return this
+}

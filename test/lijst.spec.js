@@ -223,7 +223,15 @@ describe('lijst', function () {
 
     it('#filter()')
 
-    it('#forEach()')
+    it('#forEach()', function () {
+      var arr = [152, 'asf', 325, 235, 236]
+      list.assign(arr)
+
+      var i = 0
+      list.forEach(function (value) {
+        value.should.equal(arr[i++])
+      })
+    })
 
     it('#join()')
 
