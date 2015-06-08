@@ -229,6 +229,8 @@ List.prototype.clear = function () {
 
 /**
  * Clone list
+ *
+ * @return {List} the clone
  **/
 List.prototype.clone = function () {
   var list = new List()
@@ -236,7 +238,7 @@ List.prototype.clone = function () {
   var item = it.next()
   while (!item.done) {
     list.push(item.value)
-    it.next()
+    item = it.next()
   }
   return list
 }
