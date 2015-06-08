@@ -205,5 +205,14 @@ describe('lijst', function () {
     it('#sort()')
 
     it('#reverse()')
+
+    it('#clone()', function () {
+      list.assign([235, 'sdgsd', 23])
+      var clone = list.clone()
+
+      while (!list.isEmpty()) {
+        (list.pop()).should.equal(clone.pop())
+      }
+    })
   })
 })
