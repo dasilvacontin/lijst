@@ -215,4 +215,20 @@ describe('lijst', function () {
       }
     })
   })
+
+  describe('Functional Programming', function () {
+    it('#concat()')
+
+    it('#every()')
+
+    it('#filter()')
+
+    it('#forEach()')
+
+    it('#join()')
+
+    it('#map()')
+
+    it('#some()')
+  })
 })
